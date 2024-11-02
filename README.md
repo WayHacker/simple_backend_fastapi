@@ -1,7 +1,7 @@
-### Simple backend with fast api
-
-Two api calls, first set up Cookies on frontend side, second call returns that Cookies.
-
+## About
+Simple backend with fast api.
+Two api calls first set up Cookies on frontend side, second call returns that Cookies.
+![current snapshot](./snapshot.png)
 
 ### Quick start
 #### Install requirements
@@ -14,3 +14,7 @@ pip install -r requirements.txt
 <code>
 make run
 </code>
+
+### Api routes
+1. **/set_cookies** - set up cookie with random sequense 
+2. **/get_cookies** - get value of cookie 
